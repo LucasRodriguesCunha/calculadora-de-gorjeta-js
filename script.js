@@ -18,6 +18,5 @@ function calcularGorjeta() {
   document.getElementById("valor_total").value = valor_total.toFixed(2);
 }
 
-document
-  .getElementById("calcular_btn")
-  .addEventListener("click", calcularGorjeta);
+document.getElementById("calcular_btn").addEventListener("click", calcularGorjeta);
+
